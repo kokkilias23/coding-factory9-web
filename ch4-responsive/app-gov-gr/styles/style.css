@@ -55,10 +55,38 @@ footer {
   width: auto;
 }
 
+/* Stepper Styling */
+.stepper-circle {
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: var(--white);
+  background-color: var(--lightgrey-300);
+}
+
+.stepper-border-bottom {
+  display: block;
+  border-bottom:1px solid var(--lightgrey-300)
+}
+
+.active {
+  background-color: var(--gov-blue);
+}
+
 /* Displays */
 .d-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
 }
 
 .flex-row {
@@ -90,6 +118,11 @@ footer {
   margin-bottom: 2rem;
 }
 
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .p-1 {
   padding: 1rem;
 }
@@ -119,9 +152,17 @@ footer {
   background-color: var(--lightgrey-300);
 }
 
+.bg-lightgrey-200 {
+  background-color: var(--lightgrey-200);
+}
+
 /* Text Styling */
 .font-size-1 {
   font-size: 1rem;
+}
+
+.font-size-2 {
+  font-size: 2rem;
 }
 
 .font-size-075 {
@@ -130,6 +171,10 @@ footer {
 
 .text-lightgrey-200 {
   color: var(--lightgrey-200);
+}
+
+.text-lightgrey-500 {
+  color: var(--lightgrey-500);
 }
 
 .text-center {
@@ -169,4 +214,8 @@ footer {
 
 .border-radius-15 {
   border-radius: 15%;
+}
+
+.border-lightgrey-300 {
+  border-color: var(--lightgrey-300);
 }
